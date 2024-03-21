@@ -16,5 +16,5 @@ app.use(cors(corsOptions));
 app.use('/', require('./routes/index'));
 
 app.listen(PORT, () => {
- loggerHTTP.info(`Start server port: ${PORT}`);
+ loggerHTTP.logger.info(`Start server port: ${PORT}`);
 });
