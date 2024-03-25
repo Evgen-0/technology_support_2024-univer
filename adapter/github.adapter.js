@@ -38,8 +38,7 @@ class Github {
     responseType: 'json',
    });
 
-   const data = response.body;
-   return data;
+   return response.body;
   } catch (error) {
    logger.error(error);
 
